@@ -1,0 +1,83 @@
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes round {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes line {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: 500px;
+        top: 200px;
+    }
+}
+
+@-webkit-keyframes line {
+    from {
+        left: 0;
+        top: 0;
+    }
+    to {
+        left: 500px;
+        top: 200px;
+    }
+}
+
+@keyframes parabola-horizontal {
+    from {
+        left: 0;
+    }
+    to {
+        left: 500px;
+    }
+}
+
+@-webkit-keyframes parabola-horizontal {
+    from {
+        left: 0;
+    }
+    to {
+        left: 500px;
+    }
+}
+
+@keyframes parabola-vertical {
+    from {
+        top: 0;
+    }
+    to {
+        top: 200px;
+    }
+}
+
+@-webkit-keyframes parabola-vertical {
+    from {
+        top: 0;
+    }
+    to {
+        top: 200px;
+    }
+}

@@ -1,0 +1,84 @@
+.animation {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+.animation #canvas {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+.animation-content {
+    padding: 10px;
+}
+.sprite {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #204d74;
+    background: #0aa344;
+    margin-bottom: 10px;
+}
+
+.animation-name {
+    animation: right 2s 0s linear;
+    -webkit-animation: right 2s 0s linear;
+}
+
+.animation-duration {
+    animation: right 6s 0s linear;
+    -webkit-animation: right 6s 0s linear;
+}
+
+.animation-timing-function {
+    animation: right 3s 0s ease;
+    -webkit-animation: right 3s 0s ease;
+}
+
+.animation-delay {
+    animation: right 3s 3s ease;
+    -webkit-animation: right 3s 3s ease;
+}
+
+.animation-iteration-count {
+    animation: right 3s ease 0s 3;
+    -webkit-animation: right 3s ease 0s 3;
+}
+
+.animation-direction {
+    animation: right 3s ease 0s 3 alternate;
+    -webkit-animation: right 3s ease 0s 3 alternate;
+}
+
+.animation-play-state {
+    animation: right 3s ease 0s infinite alternate;
+    -webkit-animation: right 3s ease 0s infinite alternate;
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+.animation-fill-mode {
+    animation: right 3s ease;
+    -webkit-animation: right 3s ease;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes right {
+    from {
+        left: 0;
+    }
+    to {
+        left: 500px;
+    }
+}
+
+@-webkit-keyframes right {
+    from {
+        left: 0;
+    }
+    to {
+        left: 500px;
+    }
+}
