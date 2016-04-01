@@ -66,6 +66,9 @@
                     ctx.lineTo(600, x);
                 }
             }
+            ctx.font = "40px Arial";
+            ctx.fillText("x", 580, 50);
+            ctx.fillText("y", 20, 290);
 
 
             ctx.stroke();

@@ -47,8 +47,27 @@
     -webkit-animation-fill-mode: forwards;
 }
 .parabola {
-    animation: parabola-vertical 5s cubic-bezier(1,-.03,1,.83);
-    -webkit-animation: parabola-vertical 5s cubic-bezier(1,-.03,1,.83);
+    animation: parabola-horizontal 5s linear, parabola-vertical 5s cubic-bezier(1,-.02,1,.83);
+    -webkit-animation: parabola-horizontal 5s linear, parabola-vertical 5s cubic-bezier(1,-.02,1,.83);
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
+}
+.ellipse1 {
+    animation: ellipse-horizontal 6s ease-in-out infinite alternate, ellipse-vertical 6s ease-in-out 3s infinite alternate;
+    -webkit-animation: ellipse-horizontal 6s ease-in-out infinite alternate, ellipse-vertical 6s ease-in-out 3s infinite alternate;
+}
+
+.ellipse2 {
+    animation: ellipse-horizontal 6s ease-in-out infinite alternate, ellipse-vertical 6s ease-in-out 3s infinite alternate;
+    -webkit-animation: ellipse-horizontal 6s ease-in-out infinite alternate, ellipse-vertical 6s ease-in-out 3s infinite alternate;
+}
+
+.ellipse3 {
+    animation: ellipse-horizontal 6s cubic-bezier(.37,0,.63,1) infinite alternate, ellipse-vertical 6s cubic-bezier(.37,0,.63,1) 3s infinite alternate;
+    -webkit-animation: ellipse-horizontal 6s cubic-bezier(.37,0,.63,1) infinite alternate, ellipse-vertical 6s cubic-bezier(.37,0,.63,1) 3s infinite alternate;
+}
+
+.ellipse {
+    animation: ellipse-horizontal 6s cubic-bezier(.37,0,.63,1) -3s infinite alternate, ellipse-vertical 6s cubic-bezier(.37,0,.63,1) infinite alternate;
+    -webkit-animation: ellipse-horizontal 6s cubic-bezier(.37,0,.63,1) -3s infinite alternate, ellipse-vertical 6s cubic-bezier(.37,0,.63,1) infinite alternate;
 }

@@ -81,3 +81,39 @@
         top: 200px;
     }
 }
+
+@keyframes ellipse-horizontal {
+    from {
+        left: 0;
+    }
+    to {
+        left: 300px;
+    }
+}
+
+@-webkit-keyframes ellipse-horizontal {
+    from {
+        left: 0;
+    }
+    to {
+        left: 300px;
+    }
+}
+
+@keyframes ellipse-vertical {
+    from {
+        top: 0;
+    }
+    to {
+        top: 200px;
+    }
+}
+
+@-webkit-keyframes ellipse-vertical {
+    from {
+        top: 0;
+    }
+    to {
+        top: 200px;
+    }
+}

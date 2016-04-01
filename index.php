@@ -10,7 +10,7 @@
 
                 <div class="row placeholders animation-content">
                     <div class="animation" id="J_animation">
-                        <canvas id="canvas" width="600" height="600"></canvas>
+                        <canvas id="canvas" width="600" height="300"></canvas>
                         <div class="sprite" id="J_sprite">
                         </div>
                     </div>

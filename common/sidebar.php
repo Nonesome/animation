@@ -3,7 +3,7 @@
     <ul class="nav nav-sidebar">
         <?php
         $urlArr = ['index.php', 'transform.php', 'round.php'];
-        $nameArr = ['首页', 'transform', 'Round'];
+        $nameArr = ['Animation', 'Transform', 'Round'];
         for($i = 0; $i < 4; ++$i) {
             if($url == '/animation/' . $urlArr[$i]) {
                 $class = ' class = "active"';

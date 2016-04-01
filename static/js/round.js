@@ -21,7 +21,7 @@
             $("#J_run").on('click', function() {
                 var _this = $(this),
                     id = Number($sprite.data("id"));
-                var classArr = ['','line','parabola','round'];
+                var classArr = ['','line','parabola','round', 'ellipse'];
                 $sprite[0].className = 'sprite';
                 setTimeout(function() {
                     $sprite.addClass(classArr[id]);
@@ -87,6 +87,9 @@
                     ctx.lineTo(600, x);
                 }
             }
+            ctx.font = "40px Arial";
+            ctx.fillText("x", 580, 50);
+            ctx.fillText("y", 20, 290);
             ctx.stroke();
         }
     };
